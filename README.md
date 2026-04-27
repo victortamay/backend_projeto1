@@ -1,26 +1,31 @@
 # Projeto 1 – Programação Web Back-End  
 
-Este projeto foi desenvolvido como parte da disciplina **Programação Web Back-End** e tem como objetivo implementar uma **biblioteca de acesso a SGBDs utilizando Node.js**.  
+Este projeto foi elaborado no contexto da disciplina de Programação Web Back-End, tendo como propósito a construção de uma biblioteca destinada à interação com Sistemas Gerenciadores de Banco de Dados (SGBDs) por meio da plataforma Node.js.
 
-A temática escolhida foi **E-commerce**, com foco no armazenamento e busca de informações de **usuários, vendedores e produtos** em uma loja virtual.  
+A proposta temática adotada concentra-se no domínio de comércio eletrônico (e-commerce), priorizando o gerenciamento e a recuperação de dados relacionados a usuários, vendedores e produtos em um ambiente de loja virtual.
 
 ---
 
 ## Funcionalidades  
 
-- Representação de entidades do banco de dados em **classes JavaScript**.  
-- Métodos para **inserção, busca e deleção** de dados no MongoDB.  
-- **Validação de dados** antes de salvar:  
-  - **Usuário:** nome apenas com letras, CPF com 11 números (ou `X`), email válido e senha mínima de 4 caracteres.  
-  - **Vendedor:** nome apenas com letras, CNPJ com 14 números, email válido.  
-  - **Produto:** título obrigatório, preço numérico positivo e descrição mínima.  
-- **Verificação de duplicidade** de CPF e CNPJ antes da inserção.  
-- **Tratamento de exceções** com registro em arquivo de log (`log.txt`).  
-- Casos de uso implementados:  
-  - Cadastrar usuário  
-  - Cadastrar vendedor  
-  - Postar produto  
-  - Associar produto a vendedor  
+- Modelagem das entidades do banco de dados por meio de classes em JavaScript, garantindo melhor organização e encapsulamento das informações.
+
+- Implementação de operações essenciais para manipulação de dados no MongoDB, incluindo inserção, consulta e remoção de registros.
+
+- Aplicação de mecanismos de validação de dados previamente ao armazenamento, conforme critérios específicos:
+    - Usuário: nome composto exclusivamente por caracteres alfabéticos, CPF contendo 11 dígitos (ou o caractere X), endereço de e-mail válido e senha com no mínimo quatro caracteres.
+    - Vendedor: nome formado apenas por letras, CNPJ com 14 dígitos e e-mail em formato válido.
+    - Produto: título de preenchimento obrigatório, valor numérico positivo e descrição com extensão mínima definida.
+
+- Realização de verificação de unicidade para CPF e CNPJ, evitando a inserção de registros duplicados.
+
+- Implementação de tratamento de exceções, com persistência das ocorrências em arquivo de log (log.txt) para fins de rastreabilidade.
+
+- Desenvolvimento dos principais casos de uso, contemplando:
+    - Cadastro de usuário
+    - Cadastro de vendedor
+    - Publicação de produto
+    - Vinculação de produto a um vendedor
 
   ## Tecnologias Utilizadas  
 

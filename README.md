@@ -1,4 +1,5 @@
 # Projeto 1 – Programação Web Back-End  
+# Victor Ehiti Itimura Tamay, Vitor Gabriel Menck Diniz
 
 Este projeto foi elaborado no contexto da disciplina de Programação Web Back-End, tendo como propósito a construção de uma biblioteca destinada à interação com Sistemas Gerenciadores de Banco de Dados (SGBDs) por meio da plataforma Node.js.
 

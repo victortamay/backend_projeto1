@@ -37,29 +37,17 @@ A proposta temática adotada concentra-se no domínio de comércio eletrônico (
 ## Como executar o projeto
 
 1. Clone este repositório
-  ```bash
-  git clone https://github.com/seu-usuario/projeto-ecommerce.git
-  ```
 
 2. Acesse a pasta do projeto
-  ```bash
-  cd projeto-ecommerce
-  ```
 
 3. Instale a dependência necessária (driver oficial do MongoDB)
-  ```bash
-  npm install mongodb
-  ```
   
 4. Configure a conexão com o banco de dados
   - Abra o arquivo database.js.
   - Substitua a URL de conexão pelo seu endereço local ou do MongoDB Atlas.
 
-    
 5. Execute o projeto
-  ```js
-  node index.js
-  ```
+
 
 6. Visualize os dados no banco de dados
 

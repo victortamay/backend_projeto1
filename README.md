@@ -53,11 +53,8 @@ A proposta temática adotada concentra-se no domínio de comércio eletrônico (
   
 4. Configure a conexão com o banco de dados
   - Abra o arquivo database.js.
-  - Substitua a URL de conexão pelo seu endereço local ou do MongoDB Atlas, por exemplo:
-    ```js
-    const uri = "mongodb://localhost:27017";
-    const dbName = "ecommerce";
-    ```
+  - Substitua a URL de conexão pelo seu endereço local ou do MongoDB Atlas.
+
     
 5. Execute o projeto
   ```js
